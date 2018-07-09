@@ -1,15 +1,17 @@
 /*
 
 	(C)Algebro.
-	
+
+	A partir del ejercicio 01 (Suma Sencilla) con el añadido
+	de entrada de datos desde consola
 */
 
-#include <iostream>		//Nos permite utilizar 'cout' y 'cin', para salida y entrada de datos (respectivamente)
+#include <iostream>
 
-using namespace std;	//Define el espacio de nombres std.
+using namespace std;
 
 
-int main(){				//Función principal de uso obligatorio. Nuestro programa comenzará ejecutándose por aquí.
+int main(){
 
 
 	int variableA;
@@ -25,9 +27,20 @@ int main(){				//Función principal de uso obligatorio. Nuestro programa comenza
 	resultado = variableA + variableB;		//Resultado (int) almacena el resultado de sumar ambas variables.
 
 
-	cout << "La suma de A=" << variableA << " y B=" << variableB 
+	cout << "La suma de A=" << variableA << " y B=" << variableB
 		<< " es " << resultado << endl;
 
 
-	return 0;			//Con un 0 indicamos al sistema que se ha ejecutado nuestro programa correctamente.
+	return 0;
 }
+
+/*
+		En detalle
+		---------------
+
+		cin  nos sirve para leer por consola (introducir datos) que queramos
+		que el usuario introduzca (aunque de forma externa al programa podría redireccionarse)
+
+
+
+*/
