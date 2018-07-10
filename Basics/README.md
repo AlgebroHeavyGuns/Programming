@@ -4,10 +4,10 @@
 
 First exercises on contact with the programming in C ++
 
-### For 00 to 09
+#### For 00 to 09
 
 ## Easy functions
 
 First exercises on contact with functions in C ++
 
-### For 00 to XX
+#### For 00 to XX
