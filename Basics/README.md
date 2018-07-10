@@ -10,4 +10,4 @@ First exercises on contact with the programming in C ++
 
 First exercises on contact with functions in C ++
 
-#### For 00 to XX
+#### For 10 to XX
