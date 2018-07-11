@@ -3,7 +3,7 @@
 	(C)Algebro.
 
 	Actualizacion del ejercicio 09 (CalculoFxGxHx)
-	aplicando el concepto de programacion denominado Funcion.
+	aplicando cadena de funciones para simplificarlo.
 
   Dada tres funciones matemáticas f(x),g(x) y h(x) calcular el valor obtenido
 	para una x indicada por consola de h(x)
