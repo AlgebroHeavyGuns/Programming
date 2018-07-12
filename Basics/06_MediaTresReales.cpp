@@ -30,3 +30,17 @@ int main(){
 
 	return 0;
 }
+
+
+/*
+		En detalle
+		---------------
+
+		Una alternativa, puesto que no necesitamos una vez realizado el calculo
+		cada uno de los numeros introducidos serian ir sumando en una variable
+		cada uno de los numeros introducidos, si almacenar los anteriores,
+		y finalmente calcular media como la suma entre el numero de datos introducidos (3)
+
+
+
+*/
