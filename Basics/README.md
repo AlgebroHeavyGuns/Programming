@@ -15,6 +15,7 @@ First exercises on contact with functions in C ++
 ## First Steps with Arrays
 
 First exercises on contact with arrays in C ++
+
 Its initialization, modification and access.
 (Exercise 17 has use of arrays and functions)
 
