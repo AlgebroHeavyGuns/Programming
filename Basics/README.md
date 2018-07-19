@@ -25,4 +25,17 @@ Its initialization, modification and access.
 
 What are the if/else statements and how are they used.
 
-#### For 18 to XX
+#### For 18 to 21
+
+
+## Using loops
+
+What are the loops and its frequent uses.
+
+#### For 22 to XX
+
+
+
+
+### All these programs were designed and implemented by Algebro
+### Todos estos programas fueron diseñados e implementado por Algebro.
