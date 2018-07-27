@@ -38,4 +38,4 @@ What are the loops and its frequent uses.
 
 
 ### All these programs were designed and implemented by Algebro
-### Todos estos programas fueron diseñados e implementado por Algebro.
+### Todos estos programas fueron diseñados e implementados por Algebro.
