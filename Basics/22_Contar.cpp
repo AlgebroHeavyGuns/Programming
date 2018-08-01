@@ -2,7 +2,7 @@
 
 	(C)Algebro.
 
-  Dado un numero por consola, contar desde 0 hasta este ese numero.
+  Dado un numero por consola, contar desde 0 hasta este ese numero (no incluido).
 	Realizado con un bucle for y con un bucle while.
 
 */
