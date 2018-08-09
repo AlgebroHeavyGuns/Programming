@@ -27,12 +27,17 @@ What are the if/else statements and how are they used.
 
 #### For 18 to 21
 
-
 ## Using loops
 
 What are the loops and its frequent uses.
 
-#### For 22 to XX
+#### For 22 to 32
+
+## Struct (structures)
+
+What are structures, some utilities and initiation to class.
+
+#### For 33 to XX
 
 
 

@@ -28,7 +28,7 @@ int main(){
 	cout << "Introducir numero (0 para finalizar): ";
 	cin >> numero; 	//lectura adelantada
 
-	while(numero!=0){
+	while(numero!=0 && introducidos<TAMANIO){
 
 		encontrado = false;
 		for(int i=0; i<TAMANIO && i<introducidos && !encontrado; i++)
