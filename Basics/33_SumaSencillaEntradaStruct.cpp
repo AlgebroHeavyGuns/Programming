@@ -20,7 +20,7 @@ struct ParNumero{
 int main(){
 
 
-	ParNumero par;
+	ParNumero par;		//Creacion de una variable de tipo ParNumero
 
 	cout << "Introducir valor para Variable A : ";
 	cin >> par.variableA;
