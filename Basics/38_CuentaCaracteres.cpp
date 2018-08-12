@@ -5,6 +5,9 @@
 	Utilizando un struct para contabilizar el numero de apariciones
 	de una caracter, contar cuantas veces se repite dicha caracter.
 
+	Por ejemplo:
+	9872 8967 7986 9985 9876 2199 8754 3879 7665 3654 85443
+
 */
 
 #include <iostream>
