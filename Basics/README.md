@@ -37,9 +37,19 @@ What are the loops and its frequent uses.
 
 What are structures, some utilities and initiation to class.
 
-#### For 33 to XX
+#### For 33 to 40
 
+## Functions and references.
 
+Functions with passing by reference.
+
+#### For 41 to 43
+
+## Class
+
+What are classes, initiation to the object orientation paradigm.
+
+#### For 44 to XX
 
 
 ### All these programs were designed and implemented by Algebro
