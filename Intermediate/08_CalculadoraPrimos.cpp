@@ -22,15 +22,15 @@ bool Divisible(int primos[], int n){
 }
 
 void Next(int primos[], int n){
-  primos[n] = primos[n-1]+1;
-  while(Divisible(primos, n)){
-    primos[n] +=1;
-  }
+    primos[n] = primos[n-1]+1;
+    while(Divisible(primos, n)){
+      primos[n] +=1;
+    }
 }
 
 void CalcularPrimos(int primos[], int n){
-  primos[0]=2;
-  cout << 2 << "\t";    //El primero.
+  primos[0] = 2;
+  cout << primos[0] << "\t";    // El primero.
   for(int i=1;i<n;i++){
     Next(primos, i);
     cout << primos[i] << "\t";    //Los muestra segun los va encontrando.
