@@ -1,12 +1,14 @@
 # Intermediate
 
-## Some concepts
+## Structs
 
 Basic exercises about Data Structures
 
 #### For 01 to X
 
-## Structs
+
+
+
 
 
 
