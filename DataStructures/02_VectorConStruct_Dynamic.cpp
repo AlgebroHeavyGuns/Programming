@@ -35,12 +35,12 @@ void fillVector(Vector& vector, const type value){
 
 void showVector(const Vector& vector, ostream& out, const char separator = '\t'){
   for(unsigned int i=0; i<vector.size;i++)
-    out << vector.vec[i] << '\t';
+    out << vector.vec[i] << separator;
   out << endl;
 }
 
 const type& maxInVector(const Vector& vector){
-  type* max = vector.vec;
+  const type* max = vector.vec;
   for(unsigned int i=1;i<vector.size;i++)
     if(*max < vector.vec[i])
       max = vector.vec+i;   // = &vector.vec[i]
