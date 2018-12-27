@@ -29,7 +29,7 @@ void createVector(Vector& vector, unsigned int newsize){
 }
 
 void deleteVector(Vector& vector){
-  delete vector.vec;
+  delete[] vector.vec;
   vector.size = -1;
 }
 
