@@ -2,7 +2,8 @@
 
 	(C)Algebro.
 
-
+  Para ver Matriz rectangular (NxM) en memoria dinamica:
+  https://github.com/AlgebroHeavyGuns/Programming/blob/master/DataStructures/04_MatrizNxM.cpp
 
 
 */

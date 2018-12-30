@@ -2,8 +2,8 @@
 
 	(C)Algebro.
 
-
-
+  Para ver Matriz dentada en memoria dinamica:
+  https://github.com/AlgebroHeavyGuns/Programming/blob/master/DataStructures/05_MatrizDentada.cpp
 
 */
 
@@ -80,7 +80,7 @@ int main(){
 
     La matriz rectangular requiere conocer el numero de filas y el de columnas
     (pudiendo este conincidir o no)
-    
+
     La matriz dentada, requiere conocer el numero de columnas para cada fila.
 
     Como necesitamos almacenar un entero (entendemos que positivo) para cada
