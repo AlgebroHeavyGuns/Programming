@@ -4,8 +4,14 @@
 
 Basic exercises about Data Structures
 
-#### For 01 to X
+#### For 01 to 03
 
+## Dinamic Data Structures
+
+Basic exercises using other basic data structures
+
+
+#### For 04 to XX
 
 
 
