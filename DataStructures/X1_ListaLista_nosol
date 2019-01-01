@@ -1,0 +1,66 @@
+/*
+
+	(C)Algebro.
+
+
+  Para un festival de heavy metal internacional muy importante
+  necesitan un programa para organizar los grupos que van a tocar
+  en el festival.
+  Para almacenar el plan se debe usar una lista para cada uno de los días
+  del festival que contendrán una lista con la banda que toca esos días.
+
+  Las bandas contienen la siguiente informacion:
+    -Un string (sin espacios) para almacenar el titulo.
+    -Un entero positivo para almacenar el numero de 'medias horas' que van a tocar (un 3 significa 90 minutos)
+    -Un entero positivo para almacenar la valoracion del grupo (popularidad)
+
+  Un dia de festival no puede contener mas de 5 horas de concierto.
+
+  Las funciones requeridas son:
+  InsertaBanda. Recibe el plan actual, y la banda a insertar,
+                y busca el primer dia que pueda introducir dicho grupo,
+                si no es posible, agregará un nuevo dia de festival.
+                Devuelve true si ha insertado un nuevo dia, false en caso contrario.
+  BandasEnDia.  Recibe el plan actual, y un dia de festival (un numero entero entre 0 y el total de dias),
+                y devuelve las bandas que tocan ese día ordenadas de menor a mayor valoracion.
+  MejorPar.     el plan actual, busca los dos dias consecutivos con mayor valoracion,
+                y devuelve una lista con ambas listas (una lista con dos elementos)
+
+  (La funcion main es orientativa)
+
+*/
+
+#include <iostream>
+#include <list>
+#include <string>
+
+using namespace std;
+
+
+struct Banda{
+  /********/
+};
+
+
+int main(int argc, char** argv){
+  list<list<Banda> > plan;
+  Banda banda;
+  int dia;
+
+  cin >> banda.titulo;
+  while(!cin.eof()){
+    cin >> banda.mediashoras;
+    cin >> banda.valoracion;
+    cout <<  (InsertaBanda(plan, banda) ? "\nNuevo dia insertado." : "\nInsertado en plan previo.") << "  dias : " << plan.size() << endl;
+    cin >> banda.titulo;
+  }
+
+  cout << "Dia arbitario : ";
+  cin >> dia;
+  cout << "Bandas el dia " << dia << " : \n" << BandasEnDia(plan, dia);
+
+
+  cout << "\n--FESTIVAL--\n" << plan << endl;
+
+  return 0;
+}
