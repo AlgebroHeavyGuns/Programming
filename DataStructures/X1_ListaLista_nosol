@@ -62,5 +62,8 @@ int main(int argc, char** argv){
 
   cout << "\n--FESTIVAL--\n" << plan << endl;
 
+
+	cout << "\n--Mejor bono 2 dias--\n" << MejorPar(plan) << endl;
+
   return 0;
 }
