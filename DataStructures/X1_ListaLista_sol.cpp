@@ -123,8 +123,9 @@ list<list<Banda> > MejorPar(const list<list<Banda> >& plan){
     return plan;
   unsigned int anterior, maximo, nuevo;
   list<list<Banda> >::const_iterator it=plan.cbegin();
-  const list<Banda>* diaAnterior = &(*(it++));
-  const list<Banda>* diaPosterior = &(*(it++));
+  const list<Banda>* diaAnterior = &(*(it++));  //Del maximo
+  const list<Banda>* diaPosterior = &(*(it++)); //Del maximo
+  const list<Banda>* anteriorVisto = diaPosterior;
 
   anterior = Valoracion(*diaPosterior);
   maximo = anterior + Valoracion(*diaAnterior);
@@ -133,10 +134,11 @@ list<list<Banda> > MejorPar(const list<list<Banda> >& plan){
     nuevo = Valoracion(*it);
     if(maximo < anterior+nuevo){
       maximo = anterior+nuevo;
-      diaAnterior= diaPosterior;
+      diaAnterior= anteriorVisto;
       diaPosterior = &(*it);
     }
     anterior = nuevo;
+    anteriorVisto = &(*it);
   }
 
   list<list<Banda> > returned;
