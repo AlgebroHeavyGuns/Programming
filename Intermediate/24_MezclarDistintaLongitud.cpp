@@ -63,7 +63,7 @@ int main(){
 		En detalle
 		-----------------------
 
-    cuando se hacen tam-1 mezclas, se vuelve al vector original.
+
 
 
 */

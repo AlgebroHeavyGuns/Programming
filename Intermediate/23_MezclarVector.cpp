@@ -42,8 +42,8 @@ int main(){
   for(int i=0;i<tam;i++)
     cout << vector[i] << "\t";
 
-  int* mix = Mezcla(vector, vector+tam/2, tam/2);
-  for(int i=1; i<tam; i++){   //tam-1 mezclas.
+  int* mix = vector;// = Mezcla(vector, vector+tam/2, tam/2);
+  for(int i=1; i<=tam; i++){   //tam-1 mezclas.
     mix = Mezcla(mix, mix+tam/2, tam/2);
 
     cout << "\nVector despues de " << i << " mezclas : \n";
@@ -61,7 +61,7 @@ int main(){
 		En detalle
 		-----------------------
 
-    cuando se hacen tam-1 mezclas, se vuelve al vector original.
+    Cuando se hacen 'tam' mezclas, se vuelve al vector original.
 
 
 */
