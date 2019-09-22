@@ -16,9 +16,9 @@ int main(){				//Función principal de uso obligatorio. Nuestro programa comenza
 
 	int variableA = 5;	//VariableA es un entero (int) con valor 5.
 	int variableB = 3;	//VariableB es un entero (int) con valor 3.
+	int resultado;
 
-
-	int resultado = variableA + variableB;		//Resultado (int) almacena el resultado de sumar ambas variables.
+	resultado = variableA + variableB;		//Resultado (int) almacena el resultado de sumar ambas variables.
 
 
 	cout << "La suma de A=" << variableA << " y B=" << variableB

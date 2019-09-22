@@ -1,6 +1,9 @@
 ###############################################################################
-# Algebro.
+# (C) Algebro.
 #
+#	Makefile que permite compilar todos Los
+# ficheros .cpp generando un ejecutable con el
+# mismo nombre.
 ###############################################################################
 
 SRC = $(wildcard *.cpp)

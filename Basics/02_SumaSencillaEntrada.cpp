@@ -39,7 +39,10 @@ int main(){
 		---------------
 
 		cin  nos sirve para leer por consola (introducir datos) que queramos
-		que el usuario introduzca (aunque de forma externa al programa podría redireccionarse)
+		que el usuario introduzca.
+
+		Más adelante, de forma externa al programa, se podría redireccionar para
+		que los datos los coja de un fichero de texto.
 
 
 

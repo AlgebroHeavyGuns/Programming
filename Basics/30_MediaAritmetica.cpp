@@ -5,8 +5,6 @@
 	Calculo de la media de una secuencia de numeros introducidos
 	por consola.
 
-
-
 */
 
 #include <iostream>

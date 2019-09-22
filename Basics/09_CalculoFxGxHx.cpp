@@ -61,7 +61,7 @@ int main(){
 		Este ejercicio nos hace darnos cuenta que seria muy util almacenar
 		el como calcular f(x) para poder ejecutarlo cuando sea necesario,
 		al igual que con g(x) y h(x);
-		y prescindir de tener que copiar en varios ocasiones la misma funcion.
-		(Se vera en el ejercicio 13)
+		De esta manera podemos prescindir de tener que copiar en varios ocasiones
+		la misma funcion.		(Se vera en el ejercicio 13 (FuncionesFxGxHx))
 
 */

@@ -5,8 +5,6 @@
 	Introducir numeros en un vector, y avisar cuando
 	se introduzca algun dato repetido (no necesariamente consecutivo)
 
-
-
 */
 
 #include <iostream>

@@ -2,8 +2,8 @@
 
 	(C)Algebro.
 
-  A partir del ejercicio 02 (Suma Sencilla Entrada) modificando el tipo
-  de datos para permitir el uso de decimales (numeros racionales)
+  A partir del ejercicio 02 (Suma Sencilla Entrada) modificacion que
+	permite el uso de decimales (numeros racionales) cambiando el tipo de dato.
 */
 
 #include <iostream>

@@ -49,7 +49,7 @@ Functions with passing by reference.
 
 What are classes, initiation to the object orientation paradigm.
 
-#### For 44 to XX
+#### For 44 to 50
 
 
 ### All these programs were designed and implemented by Algebro

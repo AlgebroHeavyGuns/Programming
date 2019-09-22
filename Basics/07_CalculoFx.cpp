@@ -22,8 +22,8 @@ int main(){
 	cout << "Introducir el valor de x: ";
 	cin >> valor_x;
 
-	//No muy buena opcion, ya que es poco legible y repetimos mucho un mismo calculo.
-	//resultado = valor_x * valor_x * valor_x - valor_x * valor_x + 2 * valor_x - 1;
+	//  Lo siguiente no muy buena opcion, ya que es poco legible y repetimos mucho un mismo calculo :
+	//  		resultado = valor_x * valor_x * valor_x - valor_x * valor_x + 2 * valor_x - 1;
 
 	double cuadrado = valor_x*valor_x;
 	double cubo = cuadrado * valor_x;
