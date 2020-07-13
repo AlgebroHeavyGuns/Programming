@@ -19,5 +19,6 @@ Raising iteration problems between different resources and dynamic memory manage
 Some exercises about Data structures, algorithmic and introduction to data management.
 
 
+
 ### All these programs were designed and implemented by Algebro
 ### Todos estos programas fueron diseñados e implementados por Algebro.
